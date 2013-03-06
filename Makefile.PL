@@ -6,12 +6,14 @@ WriteMakefile
   'NAME' => 'Catmandu::Twitter',
   'VERSION_FROM' => 'lib/Catmandu/Importer/Twitter.pm',
   'PREREQ_PM' => {
-                   'Catmandu' => '0.08',
+                   'Catmandu' => '0.09',
+                   'Date::Parse' => '2.30',
                    'Moo' => '0.009011',
                    'Net::Twitter' => '4.00003',
                    'Software::License' => 0,
                    'Test::Exception' => 0,
-                   'Test::More' => 0
+                   'Test::More' => 0,
+                   'URI::Escape' => '3.31'
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [

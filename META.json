@@ -28,9 +28,11 @@
       },
       "runtime" : {
          "requires" : {
-            "Catmandu" : "0.08",
+            "Catmandu" : "0.09",
+            "Date::Parse" : "2.30",
             "Moo" : "0.009011",
             "Net::Twitter" : "4.00003",
+            "URI::Escape" : "3.31",
             "perl" : "v5.10.0"
          }
       }
@@ -38,7 +40,7 @@
    "provides" : {
       "Catmandu::Importer::Twitter" : {
          "file" : "lib/Catmandu/Importer/Twitter.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -47,5 +49,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
