@@ -4,7 +4,7 @@
       "Patrick Hochstenbach <patrick.hochstenbach@ugent.be>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -23,12 +23,14 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.4"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
          "requires" : {
             "Catmandu" : "0.09",
+            "Catmandu::Atom" : "0.02",
+            "Config::Any::JSON" : "0",
             "Date::Parse" : "2.30",
             "Moo" : "0.009011",
             "Net::Twitter" : "4.00003",
@@ -40,7 +42,7 @@
    "provides" : {
       "Catmandu::Importer::Twitter" : {
          "file" : "lib/Catmandu/Importer/Twitter.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -49,5 +51,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
